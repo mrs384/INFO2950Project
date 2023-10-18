@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en" class="wf-freightsanspro-n6-active wf-freighttextpro-i4-active wf-freighttextpro-n7-active wf-freightsanspro-n5-active wf-freightsanspro-n4-active wf-freighttextpro-n3-active wf-freighttextpro-i3-active wf-freightsanspro-n3-active wf-freighttextpro-n4-active wf-freighttextpro-i7-active js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths no-videopreload wf-freightsanspro-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- base href="https://www.cornell.edu/about/" --><style type="text/css">.tk-freight-sans-pro{font-family:"freight-sans-pro",sans-serif;}.tk-freight-text-pro{font-family:"freight-text-pro",sans-serif;}</style><style type="text/css">@font-face{font-family:freight-sans-pro;src:url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/442215/000000000000000000010b5a/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-sans-pro;src:url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/1709eb/000000000000000000010b60/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-sans-pro;src:url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ba2099/000000000000000000010b58/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-sans-pro;src:url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/8dd886/000000000000000000010b5c/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-sans-pro;src:url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/cef9f3/000000000000000000010b5e/27/a?subset_id=2&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/ac6334/000000000000000000012059/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/5464d5/00000000000000000001205a/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/04ec74/00000000000000000001205b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/8cf83d/00000000000000000001205c/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/1aea0d/000000000000000000012106/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/1aea0d/000000000000000000012106/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/1aea0d/000000000000000000012106/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:auto;}@font-face{font-family:freight-text-pro;src:url(https://use.typekit.net/af/2d5f33/000000000000000000012107/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/2d5f33/000000000000000000012107/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/2d5f33/000000000000000000012107/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;font-stretch:normal;font-display:auto;}</style><style>body{margin-left:0;margin-right:0;margin-top:0}#bN015htcoyT__google-cache-hdr{background:#f8f9fa;font:13px arial,sans-serif;text-align:left;color:#202124;border:0;margin:0;border-bottom:1px solid #dadce0;line-height:16px;padding:16px 28px 24px 28px}#bN015htcoyT__google-cache-hdr *{display:inline;font:inherit;text-align:inherit;color:inherit;line-height:inherit;background:none;border:0;margin:0;padding:0;letter-spacing:0}#bN015htcoyT__google-cache-hdr a{text-decoration:none;color:#1a0dab;}#bN015htcoyT__google-cache-hdr a:hover{text-decoration:underline}#bN015htcoyT__google-cache-hdr a:visited{color:#681da8}#bN015htcoyT__google-cache-hdr div{display:block;margin-top:4px}#bN015htcoyT__google-cache-hdr b{font-weight:bold;display:inline-block;direction:ltr}</style></head><body class="about"><div id="bN015htcoyT__google-cache-hdr"><div><span>This is Google's cache of <a href="https://www.cornell.edu/about/">https://www.cornell.edu/about/</a>.</span>&nbsp;<span>It is a snapshot of the page as it appeared on Sep 5, 2023 19:10:30 GMT.</span>&nbsp;<span>The <a href="https://www.cornell.edu/about/">current page</a> could have changed in the meantime.</span>&nbsp;<a href="http://support.google.com/websearch/bin/answer.py?hl=en&amp;p=cached&amp;answer=1687222"><span>Learn more</span>.</a></div><div><span style="display:inline-block;margin-top:8px;margin-right:104px;white-space:nowrap"><span style="margin-right:28px"><span style="font-weight:bold">Full version</span></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:FwQY78IHD64J:https://www.cornell.edu/about/&amp;sca_esv=562865996&amp;hl=en&amp;gl=us&amp;strip=1&amp;vwsrc=0"><span>Text-only version</span></a></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:FwQY78IHD64J:https://www.cornell.edu/about/&amp;sca_esv=562865996&amp;hl=en&amp;gl=us&amp;strip=0&amp;vwsrc=1"><span>View source</span></a></span></span></div><span style="display:inline-block;margin-top:8px;color:#70757a"><span>Tip: To quickly find your search term on this page, press <b>Ctrl+F</b> or <b>⌘-F</b> (Mac) and use the find bar.</span></span></div><div style="position:relative;">
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->  <!--<![endif]-->
+
+<meta charset="utf-8">
+<!-- TIME BUILT: {ts '2023-09-05 15:10:29'} -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="author" content="Office of Web Communications, Cornell University">
+<meta name="copyright" content="Copyright (c) 2023 Cornell University">
+
+<meta name="description" content="Cornell University is a private research university that provides an exceptional education for undergraduates and graduate and professional students. Cornell's colleges and schools encompass more than 100 fields of study, with locations in Ithaca, New York, New York City and Doha, Qatar.">
+<meta name="keywords" content="university, ivy league, research, undergraduate research, graduate research, transnational, land grant, new york, agriculture and life sciences, architecture, art, planning, arts and sciences, engineering, hotel administration, human ecology, industrial and labor relations, law, business, medicine, pre-med, veterinary medicine, vet school">
+
+<meta name="robots" content="all">
+
+<meta name="viewport" content="user-scalable = yes">
+
+<meta content="width=device-width, minimum-scale=1" name="viewport">
+
+<meta property="fb:app_id" content="806006142815437">
+
+    
+
+<title>About | Cornell University</title>
+
+<link rel="shortcut icon" href="https://www.cornell.edu/favicon.ico" type="image/x-icon">
+
+<!-- Typekit fonts -->
+<script type="text/javascript" async="" src="About%20Cornell%20University_files/siteanalyze_6120104.js"></script><script type="text/javascript" async="" src="About%20Cornell%20University_files/ga.js"></script><script src="About%20Cornell%20University_files/gog6dck.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- Core CSS -->
+<link rel="stylesheet" href="About%20Cornell%20University_files/cornell.css">
+<link rel="stylesheet" href="About%20Cornell%20University_files/style.css">
+<link rel="stylesheet" href="About%20Cornell%20University_files/print.css">
+<!--[if lt IE 9]>
+<link href="https://www.cornell.edu/assets/core/css/ie.css?ver=20230118" rel="stylesheet" />
+<script src="https://www.cornell.edu/assets/core/js/lib/selectivizr.js?ver=20230118"></script>
+<link href="https://www.cornell.edu/assets/core/css/ie8down.css?ver=20230118" rel="stylesheet" />
+<![endif]-->
+<!--[if gte IE 9]>
+<link href="https://www.cornell.edu/assets/core/css/ie9up.css?ver=20230118" rel="stylesheet" />
+<![endif]-->
+
+
+
+
+
+
+    
+<!-- <link rel="stylesheet" href="/assets/main.css"> -->
+
+
+<script src="About%20Cornell%20University_files/modernizr.js"></script>
+<style type="text/css">
+/* Mega nav down-arrow buttons for sub-menus */
+.xarrow_button {
+  display: none;
+}
+</style>
+
+
+  <link rel="stylesheet" type="text/css" media="all" href="About%20Cornell%20University_files/overview-updates_2023.css">
+
+          
+
+  
+  
+
+
+
+
+  
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WW83RG9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav id="skip-link" aria-label="Skip navigation">
+    <a href="#main" tabindex="1" data-click-category="header" data-click-action="skip to content">Skip to content</a>
+</nav>
+ 
+
+<!-- Begin Header -->
+
+<!-- Global Header and Navigation -->
+<header id="cu-hdr" class="hdr-embeddedsearch" aria-label="Main site navigation">
+  <div class="cu-hdr-bg"></div>
+  <div class="cu-hdr-inner">
+    <a href="https://www.cornell.edu/" id="cu-brand" title="Cornell.edu Homepage" data-click-category="header" data-click-action="home">
+      <div class="cu-logotype">Cornell University</div>
+    </a>
+    <button class="icon-search" href="/search/" id="search-trigger" data-click-category="header" data-click-action="search | reveal search box" data-click-label="magnifying glass"><span class="off-screen">Search</span></button>
+    <button class="icon-menu" href="/search/" id="mobile-trigger" title="toggle menu"><span class="off-screen">toggle menu</span></button>
+  </div>  
+  <nav id="cu-nav" data-click-category="header" aria-label="Main navigation">
+    <button id="nav-close"><div class="icon-reset"></div>close</button>
+    <ul id="cu-nav-main" data-click-action="nav | main" class="nav-menu">
+      <li class="cu-nav-about nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/about" data-click-label="About Cornell">About Cornell</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the About Cornell sub-menu"><span class="arrow_down"></span></button>
+        </span>
+
+        <a class="submenu-trigger" aria-expanded="false" href="https://www.cornell.edu/about" data-click-label="About Cornell" aria-label="toggle the About Cornell sub-menu"><span class="off-screen">About Cornell</span></a>
+        <div class="submenu sub-nav" data-click-action="nav | about | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/about/" data-click-label="Overview">
+            <img src="About%20Cornell%20University_files/nav-overview-about.jpg" class="image-replace" alt="blue sky over the Arts Quad" data-src="https://www.cornell.edu/assets/core/images/nav-overview-about.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <ul class="submenu-links sub-nav-group">
+            <li><a href="https://www.cornell.edu/about/timeline/" data-click-label="Cornell History">Cornell History</a></li>
+            <li><a href="https://www.cornell.edu/about/maps/" data-click-label="Maps &amp; Directions">Maps &amp; Directions</a></li>
+            <li><a href="https://www.cornell.edu/about/mission.cfm" data-click-label="Mission">Mission &amp; Vision</a></li>
+			      <li><a href="https://www.cornell.edu/about/values.cfm" data-click-label="Values">Core Values</a></li>
+            <li><a href="https://www.cornell.edu/about/locations/" data-click-label="Locations">Locations</a></li>
+            <li class="submenu-secondary"><a href="https://www.cornell.edu/about/locations/ithaca/" data-click-label="Ithaca">Ithaca</a></li>
+            <li class="submenu-secondary"><a href="https://www.cornell.edu/about/locations/nyc/" data-click-label="New York City">New York City</a></li>
+          </ul>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Related Links</h2>
+            <ul class="sub-nav-group" data-click-action="nav | about | related">
+              <li><a href="https://diversity.cornell.edu/" data-click-label="Diversity" aria-label="Diversity at Cornell">Diversity</a></li>
+              <li><a href="https://indigenous.cornell.edu/" data-click-label="Indigenous" aria-label="Indigenous Engagement: Commitment to North American Indigenous Nations and Communities">Indigenous Engagement</a></li>
+              <li><a href="https://economicimpact.cornell.edu/" data-click-label="Economic Impact">Economic Impact</a></li>
+              <li><a href="https://sustainability.cornell.edu/" data-click-label="Sustainability">Sustainability</a></li>
+              <li><a href="https://global.cornell.edu/" data-click-label="Global">Global</a></li>
+              <li><a href="https://leadership.cornell.edu/" data-click-label="Cornell Leadership">Cornell Leadership</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="cu-nav-admissions nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/admissions/">Admissions</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the Admissions sub-menu"><span class="arrow_down"></span></button>
+        </span>
+        <div class="submenu sub-nav" data-click-action="nav | admissions | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/admissions/" data-click-label="Overview">
+            <img src="About%20Cornell%20University_files/nav-overview-admissions.jpg" class="image-replace" alt="students cheer at a football game" data-src="https://www.cornell.edu/assets/images/nav-overview-admissions.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <div class="submenu-related">
+            <h2 class="submenu-title">Undergraduate</h2>
+            <ul class="sub-nav-group" data-click-action="nav | admissions | undergraduate">
+              <li><a href="https://admissions.cornell.edu/how-to-apply" data-click-label="Apply" aria-label="Apply as an Undergraduate">Apply</a></li>
+              <li><a href="https://admissions.cornell.edu/" data-click-label="Admissions" aria-label="Undergraduate Admissions">Admissions</a></li>
+              <li><a href="https://faq.enrollment.cornell.edu/kb/article/199-when-is-the-application-deadline/" data-click-label="Dates &amp; Deadlines">Dates and Deadlines</a></li>
+              <li><a href="https://finaid.cornell.edu/" data-click-label="Costs and Aid" aria-label="Undergraduate Costs and Aid">Costs and Aid </a></li>
+            </ul>
+          </div>
+
+          <div class="submenu-related">
+            <h2 class="submenu-title">Graduate</h2>
+            <ul class="sub-nav-group" data-click-action="nav | admissions | graduate">
+              <li><a href="https://gradschool.cornell.edu/admissions/" data-click-label="Admissions" aria-label="Graduate Admissions">Admissions</a></li>
+  			      <li><a href="https://gradschool.cornell.edu/admissions/degrees-fields/cugradfos/" data-click-label="Fields of Study" aria-label="Graduate Fields of Study">Fields of Study</a></li>
+              <li><a href="https://gradschool.cornell.edu/financial-support/" data-click-label="Financial Support" aria-label="Graduate Financial Support">Financial Support</a></li>
+            </ul>
+          </div>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Continuing Education &amp; Summer Sessions</h2>
+            <ul class="sub-nav-group" data-click-action="nav | admissions | continuing ed">
+              <li><a href="https://sce.cornell.edu/courses/programs/summer" data-click-label="Summer Sessions">Summer Sessions</a></li>
+              <li><a href="https://sce.cornell.edu/courses/programs/winter" data-click-label="Winter Sessions">Winter Sessions</a></li>
+              <li><a href="https://sce.cornell.edu/courses/programs/part-time" data-click-label="Part-time Study">Part-time Study</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="cu-nav-academics nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/academics/">Academics</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the Academics sub-menu"><span class="arrow_down"></span></button>
+        </span>
+
+        <a class="submenu-trigger" aria-expanded="false" href="https://www.cornell.edu/academics" aria-label="toggle the Academics sub-menu"><span class="off-screen">Academics</span></a>
+        <div class="submenu sub-nav" data-click-action="nav | academics | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/academics/" data-click-label="Overview">
+            <img src="About%20Cornell%20University_files/nav-overview-academics.jpg" class="image-replace" alt="art student kneels on the floor, working on a large painting" data-src="https://www.cornell.edu/assets/images/nav-overview-academics.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <ul class="submenu-links sub-nav-group">
+            <li><a href="https://www.cornell.edu/academics/fields.cfm" data-click-label="Fields of Study">Fields of Study</a></li>
+            <li><a href="https://www.cornell.edu/academics/colleges.cfm" data-click-label="Colleges &amp; Schools">Colleges &amp; Schools</a></li>
+            <li><a href="https://www.cornell.edu/academics/departments.cfm" data-click-label="Departments">Departments</a></li>
+            <li><a href="https://www.cornell.edu/academics/library.cfm" data-click-label="Library">Library</a></li>
+            <li><a href="https://www.cornell.edu/academics/continuing.cfm" data-click-label="Continuing Education">Continuing Education</a></li>
+          </ul>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Related Links</h2>
+            <ul class="sub-nav-group" data-click-action="nav | academics | related">
+  			      <li><a href="https://provost.cornell.edu/">Office of the Provost</a></li>
+  			      <li><a href="https://registrar.cornell.edu/academic-calendar" data-click-label="Academic Calendar">Academic Calendar</a></li>  
+              <li><a href="http://courses.cornell.edu/" data-click-label="Course Catalog">Course Catalog</a></li>
+              <li><a href="https://globallearning.cornell.edu/" data-click-label="Global Learning">Global Learning</a></li>
+              <li><a href="https://learninggoals.cornell.edu/" data-click-label="Learning Goals">Learning Goals</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="cu-nav-research nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/research">Research</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the Research sub-menu"><span class="arrow_down"></span></button>
+        </span>
+        <div class="submenu" data-click-action="nav | research | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/research">
+              <img src="About%20Cornell%20University_files/nav-overview-research.jpg" class="image-replace" alt="two students in a lab" data-src="https://www.cornell.edu/assets/core/images/nav-overview-research.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <div class="submenu-stories sub-nav-group">
+            <h2 class="submenu-title">Explore Cornell Research</h2>
+            <ul data-click-action="nav | research | featured"> 
+              <li><a class="img160x90" href="https://news.cornell.edu/categories/research-impact" title="" data-click-label="drop down feature image">
+              <img src="About%20Cornell%20University_files/Song-Lin-Illustration-small.jpg" class="image-replace" alt="Researchers writing on glass." data-src="https://www.cornell.edu/research/img/header/Song-Lin-Illustration-small.jpg" aria-hidden="true">Keep up with research and innovation in the Cornell Chronicle</a></li>
+            </ul>
+          </div>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Related Links</h2>
+            <ul class="sub-nav-group" data-click-action="nav | research | related">
+              <li><a href="https://research-and-innovation.cornell.edu/" data-click-label="OVPR">Vice President for Research and Innovation</a></li>
+              <li><a href="https://research-and-innovation.cornell.edu/find-a-center-institute-lab-or-program/" data-click-label="Centers &amp; Institutes">Centers &amp; Institutes</a></li>
+              <li><a href="https://ctl.cornell.edu/" data-click-label="Technology Licensing (CTL)">Technology Licensing (CTL)</a></li>  
+              <li><a href="https://gradschool.cornell.edu/admissions/explore/research-and-scholarship/" data-click-label="Graduate Research">Graduate Research</a>
+              </li><li><a href="https://undergraduateresearch.cornell.edu/" data-click-label="Undergraduate Research">Undergraduate Research</a></li>  
+              <li><a href="https://research-and-innovation.cornell.edu/publications-data/" data-click-label="Research Publications">OVPRI Research Publications</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="cu-nav-engagement nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/engagement/">Public Engagement</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the Public Engagement sub-menu"><span class="arrow_down"></span></button>
+        </span>
+        <div class="submenu sub-nav" data-click-action="nav | engagement | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/engagement/">
+              <img src="About%20Cornell%20University_files/nav-overview-engagement.jpg" class="image-replace" alt="Julia Kan ’21 and Groton student Joshua Batzer draw together." data-src="https://www.cornell.edu/assets/images/nav-overview-engagement.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <div class="submenu-stories sub-nav-group">
+            <h2 class="submenu-title">Featured</h2>
+            <ul data-click-action="nav | engagement | featured">
+              <li><a href="https://news.cornell.edu/stories/2020/10/cce-helps-buffalo-get-school-food-truck-rolling" title="" data-click-label="CCE helps Buffalo get school food truck rolling">
+              <img src="About%20Cornell%20University_files/cce-food-truck-160x90.jpg" class="image-replace" alt="Hungry customers outside the West Hertel Academy place their orders at the new Buffalo Public Schools’ food truck, developed with input from Cornell Cooperative Extension." data-src="https://www.cornell.edu/assets/images/engagement/cce-food-truck-160x90.jpg" aria-hidden="true">
+              CCE helps Buffalo get school food truck rolling</a></li>
+            </ul>
+          </div>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Related Links</h2>
+            <ul class="sub-nav-group" data-click-action="nav | engagement | related">
+              <li><a href="https://cals.cornell.edu/cornell-cooperative-extension" data-click-label="Cooperative Extension">Cornell Cooperative Extension</a></li>
+              <li><a href="https://engagedcornellhub.cornell.edu/">Engaged Cornell Hub</a></li>
+              <li><a href="https://landgrant.cornell.edu/" data-click-label="Land Grant to NYS">Land Grant to New York State</a></li>
+              <li><a href="https://ny.cornell.edu/" data-click-label="New York State Impact">New York State Impact</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="cu-nav-student nav-item">
+        <span class="menu-item-wrap">
+          <a class="menu-item" href="https://www.cornell.edu/life-at-cornell/">Life at Cornell</a>
+          <button class="arrow_button" aria-expanded="false" aria-haspopup="menu" aria-label="toggle the Life at Cornell sub-menu"><span class="arrow_down"></span></button>
+        </span>
+
+		    <a class="submenu-trigger" aria-expanded="false" href="https://www.cornell.edu/life-at-cornell/"><span class="off-screen">Life at Cornell</span></a>  
+        <div class="submenu sub-nav" data-click-action="nav | life at cornell | submenu" style="display: none;">
+          <div class="submenu-overview sub-nav-group">
+            <a href="https://www.cornell.edu/life-at-cornell/">
+            <img src="About%20Cornell%20University_files/nav-overview-student.jpg" class="image-replace" alt="members of the cheer squad arm in arm" data-src="https://www.cornell.edu/assets/core/images/nav-overview-student.jpg" aria-hidden="true">
+              <span>Overview</span>
+            </a>
+          </div>
+
+          <ul class="submenu-links sub-nav-group">
+            <li><a href="https://www.cornell.edu/life-at-cornell/athletics.cfm" data-click-label="Athletics &amp; Recreation">Athletics &amp; Recreation</a></li>
+            <li><a href="https://www.cornell.edu/life-at-cornell/arts.cfm" data-click-label="Arts &amp; Culture">Arts &amp; Culture</a></li>
+            <li><a href="https://www.cornell.edu/life-at-cornell/health.cfm" data-click-label="Health &amp; Safety">Health &amp; Safety</a></li>
+            <li><a href="https://www.cornell.edu/life-at-cornell/live.cfm" data-click-label="Live, Work, Travel">Live, Work, Travel</a></li>
+            <li><a href="https://www.cornell.edu/life-at-cornell/student-life.cfm" data-click-label="Student Life">Student Life</a></li>
+          </ul>
+
+          <div class="submenu-related last">
+            <h2 class="submenu-title">Related Links</h2>
+            <ul class="sub-nav-group" data-click-action="nav | student life | related">
+              <li><a href="https://diversity.cornell.edu/our-community" data-click-label="Find Your Networks">Find Your Networks</a></li>
+              <li><a href="https://scl.cornell.edu/get-involved/new-student-programs" data-click-label="Center for First-Year Students">Center for First-Year Students</a></li>
+              <li><a href="https://scl.cornell.edu/get-involved" data-click-label="Clubs &amp; Student Groups">Clubs &amp; Student Groups</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <!--covid link-->
+    <div id="cu-nav-informational" class="desktop-covid-link">
+      <ul>
+        <li class="cu-nav-covid">
+          <a href="https://covid.cornell.edu/" data-click-label="COVID-19 Website">COVID-19 Website</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="cu-nav-utility">
+      <ul>
+        <button class="menu-item js-sub-trigger" href="/_includes/header.cfm" data-click-label="More">More</button>
+
+        <button class="submenu-trigger" aria-expanded="false" href="/_includes/header.cfm"><span class="off-screen">Toggle navigation</span></button>
+        <li class="submenu">
+          <ul class="submenu-links">
+            <li class="cu-nav-covid">
+              <a tabindex="2" class="mobile-covid-link" href="https://covid.cornell.edu/" data-click-label="COVID-19 Website">COVID-19 Website</a>
+            </li>
+            
+<li class="cu-nav-actions" data-click-action="nav | transactional">
+  <ul>
+    <li><a tabindex="2" class="applyParent" href="#" aria-label="Expand Apply Menu" id="applyButton" role="button">Apply</a></li>
+
+    <li class="applyChildLi undergrad-nav"><a tabindex="3" class="applyChild" style="display:none;" href="https://admissions.cornell.edu/how-to-apply" aria-label="Apply as an Undergraduate">Undergraduate</a></li>
+
+    <li class="applyChildLi"><a tabindex="4" class="applyChild" style="display:none;" href="http://www.gradschool.cornell.edu/admissions" aria-label="Apply as a Graduate">Graduate</a></li>
+
+    <li><a tabindex="5" href="https://www.cornell.edu/visit">Visit</a></li>
+   
+    <li><a tabindex="6" href="http://www.giving.cornell.edu/">Give</a></li>
+  </ul>
+</li>
+
+            <li class="cu-nav-people" data-click-action="nav | audience">
+              <ul>
+                <li><a tabindex="7" href="https://www.studentessentials.cornell.edu/" data-click-label="Students">Students</a></li>
+                <li><a tabindex="8" href="https://families.cornell.edu/" data-click-label="Families">Families</a></li>
+                <li><a tabindex="9" href="https://cuinfo.cornell.edu/" data-click-label="Faculty &amp; Staff">Faculty &amp; Staff</a></li>
+                <li><a tabindex="10" href="https://alumni.cornell.edu/" data-click-label="Alumni">Alumni</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <form action="/search/" class="search-main" method="get">
+        
+        <div class="container">
+          
+          <label for="search-query" class="offscreen">Search</label>
+          <input autocomplete="off" id="search-query" name="q" placeholder="Search" required="" type="search" title="Search" tabindex="11">
+          
+          <button class="icon-search search-submit" type="submit" name="submit-search" tabindex="12"><span class="off-screen">Search</span></button>
+        </div>
+      </form>
+      
+    </div>
+  </nav>
+</header>
+<!-- End Header -->
+
+
+
+      <div class="sticky-wrapper"><div class="secondary-menu">
+        <div class="container">
+          <div class="secondary-menu-wrapper">
+            <nav aria-label="Secondary Menu: About">
+              <ul>
+                <li><a class="active" href="https://www.cornell.edu/about/index.cfm">Overview</a></li>
+                <li><a href="https://www.cornell.edu/about/timeline/">Cornell History</a></li>
+                <li><a href="https://www.cornell.edu/about/mission.cfm">Mission &amp; Vision</a></li>
+				        <li><a href="https://www.cornell.edu/about/values.cfm">Core Values</a></li>
+                <li class="secondary-menu-submenu"><a href="https://www.cornell.edu/about/locations/">Locations</a>
+                  <ul>
+                    <li><a href="https://www.cornell.edu/about/locations/ithaca/">Ithaca</a></li>
+                    <li><a href="https://www.cornell.edu/about/locations/nyc/">New York City</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.cornell.edu/about/maps/">Maps &amp; Directions</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div></div>
+
+  
+
+  <!-- Read Timeline JSON file -->
+  
+
+
+  <!-- Main Content -->
+  <div id="main" role="main" data-click-category="about" data-click-action="links">
+  <h1 class="off-screen">About Cornell</h1>
+  <div class="marquee-mask with-video" role="marquee"><img alt="" class="marquee-shim" src="About%20Cornell%20University_files/720.jpg" aria-hidden="true">
+    <div class="marquee">
+      <div class="marquee-item animate-copy" style="background-image: url('//cdnapisec.kaltura.com/p/537811/thumbnail/entry_id/1_ov22y9vj/width/1280/height/720')">
+        
+        <img alt="Scenic view of Cornell campus in spring." class="marquee-img" src="About%20Cornell%20University_files/720.jpg">
+        <div class="marquee-oneliner vjack">
+          <div class="vcenter">
+            <span class="marquee-oneliner-copy centered"><span>
+              Welcome to Cornell
+            </span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="video_pause_play" data-target="#video1" aria-label="Pause video"></button>
+  </div>
+
+
+    
+    <!-- MISSION -->
+    <div class="about-overview section transition-in">
+      <div class="container">
+        <div class="cu-intro" aria-label="Introduction">
+          <h2 class="cu-title">
+            Knowledge for the greater good
+          </h2>
+          <p>
+            We have taken to heart the revolutionary spirit that founded
+ our university and encourage each other to pursue unpredicted lines of 
+thinking in order to effect change on local and international scales. 
+          </p>
+          <ul class="link-list inline">
+            <li>
+              <a href="https://www.cornell.edu/engagement/" title="Engagement with the world">
+                Public Engagement
+              </a>
+            </li>
+            <li>
+              <a href="http://diversity.cornell.edu/" title="Cornell's commitment to Diversity">
+                Diversity
+              </a>
+            </li>
+            <li>
+              <a href="http://www.cornell.edu/sustainability/" title="Sustainability">
+                Sustainability
+              </a>
+            </li>
+            <li>
+              <a href="http://www.cornell.edu/leadership/" title="Senior university leaders">
+                Cornell Leadership
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CORNELL CAMPUSES & LOCATIONS -->
+        <div class="about-locations" aria-label="Campuses and Locations" id="about-locations">
+          <h2 class="cu-title">
+            Cornell Campuses &amp; Locations <button class="toggleSlideShowButton" style="margin-left: 3em; cursor: pointer;">Pause Slides</button>
+          </h2>
+          <div class="cu-locations">
+            <a class="cu-location media-box primary" href="https://www.cornell.edu/about/ithaca.cfm" title="About Ithaca">
+              <img alt="Main Ithaca Campus" class="media-img" src="About%20Cornell%20University_files/main-Tower1.Still001-720x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Main Campus
+                  </div>
+                  <div class="media-tag">
+                    Ithaca, NY
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Main Campus
+                  </div>
+                  <div class="media-tag divider">
+                    Ithaca, NY
+                  </div>
+                  <p class="media-copy">
+                    Located in Ithaca, NY, Cornell's main campus 
+provides the experience of the traditional college campus: eateries, 
+residence halls, academic buildings, libraries, and research facilities.
+ But its natural beauty—the nearby lake, natural waterfalls, and 
+gardens—set the campus apart from others in the Ivy League.
+                  </p>
+                  <div class="media-cta">
+                    Explore Ithaca Campus
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+
+
+            <div class="cu-location-set left">
+              <div class="cu-location-mask" style="height: 300px;">
+                <div class="cu-location-slideshow" data-idx="0" id="cu-location-slideshow0" style="position: absolute; height: 300px; left: -1800px;">
+
+                  <a class="cu-location media-box" href="http://www.cornell.edu/about/locations/nyc/570-lexington.cfm" title="570 Lexington Avenue" style="position: absolute; left: 0px; top: 0px; display: none;">
+                    <img alt="570 Lexington Avenue in New York City" class="media-img" src="About%20Cornell%20University_files/570_lex_720x720.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          570 Lexington Avenue
+                        </div>
+                        <div class="media-tag">
+                          New York, NY
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          570 Lexington Avenue
+                        </div>
+                        <div class="media-tag divider">
+                          New York, NY
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>  
+
+                  <a class="cu-location media-box" href="http://tech.cornell.edu/" title="CornellTech" style="position: absolute; left: 300px; top: 0px; display: none;">
+                    <img alt="Tech Campus in New York City" class="media-img" src="About%20Cornell%20University_files/tech-UP_2017_0939_094D-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Cornell Tech
+                        </div>
+                        <div class="media-tag">
+                          New York, NY
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Cornell Tech
+                        </div>
+                        <div class="media-tag divider">
+                          New York, NY
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="http://www.sml.cornell.edu/sml_welcome.html" title="Shoals Marine Lab" style="position: absolute; left: 600px; top: 0px; display: none;">
+                    <img alt="Shoals Marine Lab, Portsmouth, New Hampshire" class="media-img" src="About%20Cornell%20University_files/shoals-0687_07_021-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Shoals Marine Lab
+                        </div>
+                        <div class="media-tag">
+                          Portsmouth, NH
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Shoals Marine Lab
+                        </div>
+                        <div class="media-tag divider">
+                          Portsmouth, NH
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="http://aap.cornell.edu/academics/rome" title="AAP in Rome" style="position: absolute; left: 900px; top: 0px; display: none;">
+                    <img alt="Rome Architecture Studios" class="media-img" src="About%20Cornell%20University_files/arch_NQR7519-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Architecture Studios
+                        </div>
+                        <div class="media-tag">
+                          Rome, Italy
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Architecture Studios
+                        </div>
+                        <div class="media-tag divider">
+                          Rome, Italy
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="https://agritech.cals.cornell.edu/" title="Cornell AgriTech" style="position: absolute; left: 1200px; top: 0px; display: none;">
+                    <img alt="Cornell AgriTech" class="media-img" src="About%20Cornell%20University_files/geneva-2015_1310_206-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Cornell AgriTech
+                        </div>
+                        <div class="media-tag">
+                          Geneva, NY
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Cornell AgriTech
+                        </div>
+                        <div class="media-tag divider">
+                          Geneva, NY
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="http://weill.cornell.edu/" title="Weill in NYC" style="position: absolute; left: 1500px; top: 0px; display: none;">
+                    <img alt="Weill Cornell Medicine in New York City" class="media-img" src="About%20Cornell%20University_files/weill-0630_14_110-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Weill Cornell Medicine
+                        </div>
+                        <div class="media-tag">
+                          New York, NY
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Weill Cornell Medicine
+                        </div>
+                        <div class="media-tag divider">
+                          New York, NY
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="http://www.ciw.cornell.edu/" title="Cornell in Washington" style="position: absolute; left: 1800px; top: 0px;">
+                    <img alt="Wolpe Center in Washington, D.C." class="media-img" src="About%20Cornell%20University_files/dc.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Wolpe Center
+                        </div>
+                        <div class="media-tag">
+                          Washington, D.C.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                          Wolpe Center
+                        </div>
+                        <div class="media-tag divider">
+                          Washington, D.C.
+                        </div>
+                        <div class="media-cta">
+                          Visit Site
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="cu-location media-box" href="http://qatar-weill.cornell.edu/" title="Weill in Qatar" style="position: absolute; left: 30000px; top: 0px; display: none;">
+                    <img alt="Weill Cornell Medicine-Qatar" class="media-img" src="About%20Cornell%20University_files/WCM-Q_1165-360x.jpg">
+                    <div class="media-overlay vjack">
+                      <div class="vbottom">
+                        <div class="media-title">
+                          Weill Cornell Medicine-Qatar
+                        </div>
+                        <div class="media-tag">
+                          Doha, Qatar
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-rollover vjack">
+                      <div class="vcenter">
+                        <div class="media-title">
+                         Weill Cornell Medicine-Qatar
+                       </div>
+                       <div class="media-tag divider">
+                        Doha, Qatar
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="cu-location-mask" style="height: 300px;">
+              <div class="cu-location-slideshow" data-idx="3" id="cu-location-slideshow3" style="position: absolute; left: -2100px; height: 300px;">
+
+                <a class="cu-location media-box" href="http://www.cornell.edu/about/locations/nyc/570-lexington.cfm" title="570 Lexington Avenue" style="position: absolute; left: 1800px; top: 0px; display: none;">
+                  <img alt="570 Lexington Avenue in New York City" class="media-img" src="About%20Cornell%20University_files/570_lex_720x720.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        570 Lexington Avenue
+                      </div>
+                      <div class="media-tag">
+                        New York, NY
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        570 Lexington Avenue
+                      </div>
+                      <div class="media-tag divider">
+                        New York, NY
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>  
+
+                <a class="cu-location media-box" href="http://tech.cornell.edu/" title="CornellTech" style="position: absolute; left: 2100px; top: 0px;">
+                  <img alt="Tech Campus in New York City" class="media-img" src="About%20Cornell%20University_files/tech-UP_2017_0939_094D-360x.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        Cornell Tech
+                      </div>
+                      <div class="media-tag">
+                        New York, NY
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        Cornell Tech
+                      </div>
+                      <div class="media-tag divider">
+                        New York, NY
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="cu-location media-box" href="http://www.sml.cornell.edu/sml_welcome.html" title="Shoals Lab" style="position: absolute; left: 30000px; top: 0px; display: none;">
+                  <img alt="Shoals Marine Lab, Portsmouth, New Hampshire" class="media-img" src="About%20Cornell%20University_files/shoals-0687_07_021-360x.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        Shoals Marine Lab
+                      </div>
+                      <div class="media-tag">
+                        Portsmouth, NH
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        Shoals Marine Lab
+                      </div>
+                      <div class="media-tag divider">
+                        Portsmouth, NH
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="cu-location media-box" href="http://aap.cornell.edu/academics/rome" title="AAP in Rome" style="position: absolute; left: 300px; top: 0px; display: none;">
+                  <img alt="Rome Architecture Studios" class="media-img" src="About%20Cornell%20University_files/arch_NQR7519-360x.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        Architecture Studios
+                      </div>
+                      <div class="media-tag">
+                        Rome, Italy
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        Architecture Studios
+                      </div>
+                      <div class="media-tag divider">
+                        Rome, Italy
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="cu-location media-box" href="https://agritech.cals.cornell.edu/" title="Cornell AgriTech" style="position: absolute; left: 600px; top: 0px; display: none;">
+                  <img alt="Cornell AgriTech" class="media-img" src="About%20Cornell%20University_files/geneva-2015_1310_206-360x.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        Cornell AgriTech
+                      </div>
+                      <div class="media-tag">
+                        Geneva, NY
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        Cornell AgriTech
+                      </div>
+                      <div class="media-tag divider">
+                        Geneva, NY
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="cu-location media-box" href="http://weill.cornell.edu/" title="Weill in NYC" style="position: absolute; left: 900px; top: 0px; display: none;">
+                  <img alt="Weill Cornell Medicine in New York City" class="media-img" src="About%20Cornell%20University_files/weill-0630_14_110-360x.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                        Weill Cornell Medicine
+                      </div>
+                      <div class="media-tag">
+                        New York, NY
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-rollover vjack">
+                    <div class="vcenter">
+                      <div class="media-title">
+                        Weill Cornell Medicine
+                      </div>
+                      <div class="media-tag divider">
+                        New York, NY
+                      </div>
+                      <div class="media-cta">
+                        Visit Site
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a class="cu-location media-box" href="http://www.ciw.cornell.edu/" title="Cornell in Washington" style="position: absolute; left: 1200px; top: 0px; display: none;">
+                  <img alt="Wolpe Center in Washington, D.C." class="media-img" src="About%20Cornell%20University_files/dc.jpg">
+                  <div class="media-overlay vjack">
+                    <div class="vbottom">
+                      <div class="media-title">
+                       Wolpe Center
+                     </div>
+                     <div class="media-tag">
+                      Washington, D.C.
+                    </div>
+                  </div>
+                </div>
+                <div class="media-rollover vjack">
+                  <div class="vcenter">
+                    <div class="media-title">
+                      Wolpe Center
+                    </div>
+                    <div class="media-tag divider">
+                      Washington, D.C.
+                    </div>
+                    <div class="media-cta">
+                      Visit Site
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="cu-location media-box" href="http://qatar-weill.cornell.edu/" title="Weill in Qatar" style="position: absolute; left: 1500px; top: 0px; display: none;">
+                <img alt="Weill Cornell Medicine-Qatar" class="media-img" src="About%20Cornell%20University_files/WCM-Q_1165-360x.jpg">
+                <div class="media-overlay vjack">
+                  <div class="vbottom">
+                    <div class="media-title">
+                     Weill Cornell Medicine-Qatar
+                   </div>
+                   <div class="media-tag">
+                    Doha, Qatar
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Weill Cornell Medicine-Qatar
+                  </div>
+                  <div class="media-tag divider">
+                    Doha, Qatar
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="cu-location-set right">
+        <div class="cu-location-mask" style="height: 300px;">
+          <div class="cu-location-slideshow" data-idx="2" id="cu-location-slideshow2" style="position: absolute; left: -2100px; height: 300px;">
+
+            <a class="cu-location media-box" href="http://www.cornell.edu/about/locations/nyc/570-lexington.cfm" title="570 Lexington Avenue" style="position: absolute; left: 2100px; top: 0px; display: block;">
+              <img alt="570 Lexington Avenue in New York City" class="media-img" src="About%20Cornell%20University_files/570_lex_720x720.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    570 Lexington Avenue
+                  </div>
+                  <div class="media-tag">
+                    New York, NY
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    570 Lexington Avenue
+                  </div>
+                  <div class="media-tag divider">
+                    New York, NY
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>  
+
+            <a class="cu-location media-box" href="http://tech.cornell.edu/" title="CornellTech" style="position: absolute; left: 30000px; top: 0px; display: none;">
+              <img alt="Tech Campus in New York City" class="media-img" src="About%20Cornell%20University_files/tech-UP_2017_0939_094D-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Cornell Tech
+                  </div>
+                  <div class="media-tag">
+                    New York, NY
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Cornell Tech
+                  </div>
+                  <div class="media-tag divider">
+                    New York, NY
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="http://www.sml.cornell.edu/sml_welcome.html" title="Shoals Marine Lab" style="position: absolute; left: 300px; top: 0px; display: none;">
+              <img alt="Shoals Marine Lab, Portsmouth, New Hampshire" class="media-img" src="About%20Cornell%20University_files/shoals-0687_07_021-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Shoals Marine Lab
+                  </div>
+                  <div class="media-tag">
+                    Portsmouth, NH
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Shoals Marine Lab
+                  </div>
+                  <div class="media-tag divider">
+                    Portsmouth, NH
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="http://aap.cornell.edu/academics/rome" title="AAP in Rome" style="position: absolute; left: 600px; top: 0px; display: none;">
+              <img alt="Rome Architecture Studios" class="media-img" src="About%20Cornell%20University_files/arch_NQR7519-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Architecture Studios
+                  </div>
+                  <div class="media-tag">
+                    Rome, Italy
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Architecture Studios
+                  </div>
+                  <div class="media-tag divider">
+                    Rome, Italy
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="https://agritech.cals.cornell.edu/" title="Cornell AgriTech" style="position: absolute; left: 900px; top: 0px; display: none;">
+              <img alt="Cornell AgriTech" class="media-img" src="About%20Cornell%20University_files/geneva-2015_1310_206-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Cornell AgriTech
+                  </div>
+                  <div class="media-tag">
+                    Geneva, NY
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Cornell AgriTech
+                  </div>
+                  <div class="media-tag divider">
+                    Geneva, NY
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="http://weill.cornell.edu/" title="Weill in NYC" style="position: absolute; left: 1200px; top: 0px; display: none;">
+              <img alt="Weill Cornell Medicine in New York City" class="media-img" src="About%20Cornell%20University_files/weill-0630_14_110-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Weill Cornell Medicine
+                  </div>
+                  <div class="media-tag">
+                    New York, NY
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Weill Cornell Medicine
+                  </div>
+                  <div class="media-tag divider">
+                    New York, NY
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="http://www.ciw.cornell.edu/" title="Cornell in Washington" style="position: absolute; left: 1500px; top: 0px; display: none;">
+              <img alt="Wolpe Center in Washington, D.C." class="media-img" src="About%20Cornell%20University_files/dc.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Wolpe Center
+                  </div>
+                  <div class="media-tag">
+                    Washington, D.C.
+                  </div>
+                </div>
+              </div>
+              <div class="media-rollover vjack">
+                <div class="vcenter">
+                  <div class="media-title">
+                    Wolpe Center
+                  </div>
+                  <div class="media-tag divider">
+                    Washington, D.C.
+                  </div>
+                  <div class="media-cta">
+                    Visit Site
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="cu-location media-box" href="http://qatar-weill.cornell.edu/" title="Weill in Qatar" style="position: absolute; left: 1800px; top: 0px; display: none;">
+              <img alt="Weill Cornell Medicine-Qatar" class="media-img" src="About%20Cornell%20University_files/WCM-Q_1165-360x.jpg">
+              <div class="media-overlay vjack">
+                <div class="vbottom">
+                  <div class="media-title">
+                    Weill Cornell Medicine-Qatar
+                  </div>
+                  <div class="media-tag">
+                   Doha, Qatar
+                 </div>
+               </div>
+             </div>
+             <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Weill Cornell Medicine-Qatar
+                </div>
+                <div class="media-tag divider">
+                  Doha, Qatar
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="cu-location-mask" style="height: 300px;">
+        <div class="cu-location-slideshow" data-idx="5" id="cu-location-slideshow5" style="position: absolute; left: -1800px; height: 300px;">
+
+          <a class="cu-location media-box" href="http://www.cornell.edu/about/locations/nyc/570-lexington.cfm" title="570 Lexington Avenue" style="position: absolute; left: 1200px; top: 0px; display: none;">
+            <img alt="Tech Campus in New York City" class="media-img" src="About%20Cornell%20University_files/570_lex_720x720.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  570 Lexington Avenue
+                </div>
+                <div class="media-tag">
+                  New York, NY
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  570 Lexington Avenue
+                </div>
+                <div class="media-tag divider">
+                  New York, NY
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>  
+          
+          <a class="cu-location media-box" href="http://tech.cornell.edu/" title="CornellTech" style="position: absolute; left: 1500px; top: 0px; display: none;">
+            <img alt="Tech Campus in New York City" class="media-img" src="About%20Cornell%20University_files/tech-UP_2017_0939_094D-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Cornell Tech
+                </div>
+                <div class="media-tag">
+                  New York, NY
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Cornell Tech
+                </div>
+                <div class="media-tag divider">
+                  New York, NY
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="http://www.sml.cornell.edu/sml_welcome.html" title="Shoals Marine Lab" style="position: absolute; left: 1800px; top: 0px;">
+            <img alt="Shoals Marine Lab, Portsmouth, New Hampshire" class="media-img" src="About%20Cornell%20University_files/shoals-0687_07_021-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Shoals Marine Lab
+                </div>
+                <div class="media-tag">
+                  Portsmouth, NH
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Shoals Marine Lab
+                </div>
+                <div class="media-tag divider">
+                  Portsmouth, NH
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="http://aap.cornell.edu/academics/rome" title="AAP in Rome" style="position: absolute; left: 30000px; top: 0px; display: none;">
+            <img alt="Rome Architecture Studios" class="media-img" src="About%20Cornell%20University_files/arch_NQR7519-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Architecture Studios
+                </div>
+                <div class="media-tag">
+                  Rome, Italy
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Architecture Studios
+                </div>
+                <div class="media-tag divider">
+                  Rome, Italy
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="https://agritech.cals.cornell.edu/" title="Cornell AgriTech" style="position: absolute; left: 30000px; top: 0px; display: none;">
+            <img alt="Cornell AgriTech" class="media-img" src="About%20Cornell%20University_files/geneva-2015_1310_206-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Cornell AgriTech
+                </div>
+                <div class="media-tag">
+                  Geneva, NY
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Cornell AgriTech
+                </div>
+                <div class="media-tag divider">
+                  Geneva, NY
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="http://weill.cornell.edu/" title="Weill in NYC" style="position: absolute; left: 300px; top: 0px; display: none;">
+            <img alt="Weill Cornell Medicine in New York City" class="media-img" src="About%20Cornell%20University_files/weill-0630_14_110-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Weill Cornell Medicine
+                </div>
+                <div class="media-tag">
+                  New York, NY
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Weill Cornell Medicine
+                </div>
+                <div class="media-tag divider">
+                  New York, NY
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="http://www.ciw.cornell.edu/" title="Cornell in Washington" style="position: absolute; left: 600px; top: 0px; display: none;">
+            <img alt="Wolpe Center in Washington, D.C." class="media-img" src="About%20Cornell%20University_files/dc.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Wolpe Center
+                </div>
+                <div class="media-tag">
+                  Washington, D.C.
+                </div>
+              </div>
+            </div>
+            <div class="media-rollover vjack">
+              <div class="vcenter">
+                <div class="media-title">
+                  Wolpe Center
+                </div>
+                <div class="media-tag divider">
+                  Washington, D.C.
+                </div>
+                <div class="media-cta">
+                  Visit Site
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="cu-location media-box" href="http://qatar-weill.cornell.edu/" title="Weill in Qatar" style="position: absolute; left: 900px; top: 0px; display: none;">
+            <img alt="Weill Cornell Medicine-Qatar" class="media-img" src="About%20Cornell%20University_files/WCM-Q_1165-360x.jpg">
+            <div class="media-overlay vjack">
+              <div class="vbottom">
+                <div class="media-title">
+                  Weill Cornell Medicine-Qatar
+                </div>
+                <div class="media-tag">
+                 Doha, Qatar
+               </div>
+             </div>
+           </div>
+           <div class="media-rollover vjack">
+            <div class="vcenter">
+              <div class="media-title">
+                Weill Cornell Medicine-Qatar
+              </div>
+              <div class="media-tag divider">
+                Doha, Qatar
+              </div>
+              <div class="media-cta">
+                Visit Site
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<a class="link-caret" href="https://www.cornell.edu/about/locations.cfm" title="Cornell around the globe">
+  See All Locations
+</a>
+</div>
+</div>
+</div>
+<!-- PROFILE -->
+<div class="about-cornell section light-gray border-top" aria-label="Quick facts, profile, and map">
+  <div class="container">
+    <!-- QUICK FACTS -->
+    <div class="about-tower cu-tower">
+      <div class="icon-clocktower-bold"></div>
+      <h2 class="cu-tower-title">
+        Quick Facts
+      </h2>
+      <dl class="facts-list">
+        <dt>
+          Location
+        </dt>
+        <dd>
+          Ithaca, New York
+        </dd>
+        <dt>
+          Founded
+        </dt>
+        <dd>
+          1865
+        </dd>
+        <dt>
+          Identity
+        </dt>
+        <dd>
+         Private university, public mission
+       </dd>
+
+     </dl>
+
+     <ul class="about-stats stats-list">
+
+      <li class="stat">
+        <div class="stat-value">
+         15,735
+       </div>
+       <div class="stat-label">
+        Undergraduate Students
+      </div>
+    </li>
+    <li class="stat">
+      <div class="stat-value">
+       10,163
+     </div>
+     <div class="stat-label">
+      Graduate Students
+    </div>
+  </li>
+  <li class="stat">
+    <div class="stat-value">
+      2,864
+    </div>
+    <div class="stat-label">
+      Faculty
+    </div>
+  </li>
+  <li class="stat">
+    <div class="stat-value">
+      50
+    </div>
+    <div class="stat-label">
+      Nobel Laureates
+    </div>
+  </li>
+  <li class="stat">
+    <div class="stat-value">
+      17
+    </div>
+    <div class="stat-label">
+      Colleges and Schools
+    </div>
+  </li>
+  <li class="stat">
+    <div class="stat-value">
+     $407M
+   </div>
+   <div class="stat-label">
+    undergraduate grant aid (FY23)
+  </div>
+</li>
+</ul>
+<img alt="Cornell pennant" class="pennant" src="About%20Cornell%20University_files/pennant.png">
+<a class="link-caret" href="https://irp.dpb.cornell.edu/university-factbook" title="Facts about Cornell">
+  See All University Facts
+</a>
+</div>
+<div class="about-block about-profile">
+  <h3 class="cu-title">
+    Our Profile
+  </h3>
+  <p>Cornell is a privately endowed research university and a partner of
+ the State University of New York. As the federal land-grant institution
+ in New York State, we have a responsibility—unique within the Ivy 
+League—to make contributions in all fields of knowledge in a manner that
+ prioritizes public engagement to help improve the quality of life in 
+our state, the nation, the world.</p>
+       <!-- <ul class="link-list">
+          <li>
+            <a href="/engagement/" title="Public Engagement">
+             Public Engagement
+            </a>
+          </li>
+          <li>
+            <a href="http://irp.dpb.cornell.edu/university-factbook" title="All the facts">
+              University Factbook
+            </a>
+          </li>
+        </ul>-->
+      </div>
+      <div class="about-block about-timeline">
+       <h3 class="cu-title">Cornell Through the Years</h3>
+       <p>More than 150 years of excellence in education, research and 
+public engagement haven given Cornell a unique history that is rich with
+ innovation and tradition.</p>
+
+       
+
+
+       <div class="timeline-slider">
+
+        
+
+
+
+            <div class="timeline-slide fade" style="display: block;">
+
+           
+             <img alt="Composite image of the Cornell University Charter seal and Ezra Cornell." src="About%20Cornell%20University_files/charter-seal-16x9.jpg">
+           
+             
+             <div class="timeline-slide-overlay">
+             </div>
+             <div class="timeline-slide-text">
+              <div class="timeline-slide-year">1865
+              </div>
+              <div class="timeline-slide-title"><a href="https://www.cornell.edu/about/timeline/index.cfm?#timeline-id-1" alt="read more about Cornell charter signed into law">Cornell charter signed into law</a></div>
+              <div class="timeline-slide-desc">
+
+               <p>NY State Senate passes the bill that that establishes Cornell University on April 27.</p> </div>
+             </div>
+           </div>
+         
+
+
+
+            <div class="timeline-slide fade" style="display: none;">
+
+           
+             <img alt="" src="About%20Cornell%20University_files/RMC2004_0095-chimes16x9.jpg">
+           
+             
+             <div class="timeline-slide-overlay">
+             </div>
+             <div class="timeline-slide-text">
+              <div class="timeline-slide-year">1868
+              </div>
+              <div class="timeline-slide-title"><a href="https://www.cornell.edu/about/timeline/index.cfm?#timeline-id-2" alt="read more about Cornell chimes ring for the first time">Cornell chimes ring for the first time</a></div>
+              <div class="timeline-slide-desc">
+
+               <p>The original set of nine bells first rings out at the university's opening ceremonies.</p> </div>
+             </div>
+           </div>
+         
+
+
+
+            <div class="timeline-slide fade" style="display: none;">
+
+           
+             <img alt="A metallic, green dragon with scales surrounded by students and staff." src="About%20Cornell%20University_files/2016_0362_047-dragon-day-16x9.jpg">
+           
+             
+             <div class="timeline-slide-overlay">
+             </div>
+             <div class="timeline-slide-text">
+              <div class="timeline-slide-year">1901
+              </div>
+              <div class="timeline-slide-title"><a href="https://www.cornell.edu/about/timeline/index.cfm?#timeline-id-5" alt="read more about Architecture students stage first 'Dragon Day'">Architecture students stage first 'Dragon Day'</a></div>
+              <div class="timeline-slide-desc">
+
+               <p>Inspired by an idea from Willard Dickerman Straight 1901, the first Dragon Day is held.</p> </div>
+             </div>
+           </div>
+         
+
+
+
+            <div class="timeline-slide fade" style="display: none;">
+
+           
+             <img alt="A man stands above a gathered crowd listening to him speak." src="About%20Cornell%20University_files/RMC2013_0028-lab-of-o-16x9.jpg">
+           
+             
+             <div class="timeline-slide-overlay">
+             </div>
+             <div class="timeline-slide-text">
+              <div class="timeline-slide-year">1915
+              </div>
+              <div class="timeline-slide-title"><a href="https://www.cornell.edu/about/timeline/index.cfm?#timeline-id-7" alt="read more about Cornell Lab of O takes wing">Cornell Lab of O takes wing</a></div>
+              <div class="timeline-slide-desc">
+
+               <p>The Cornell Laboratory of Ornithology is established.</p> </div>
+             </div>
+           </div>
+         
+
+
+
+            <div class="timeline-slide fade" style="display: none;">
+
+           
+             <img alt="The etched golden record on a black background." src="About%20Cornell%20University_files/voyager_record20171201-16-golden-record16x9.jpg">
+           
+             
+             <div class="timeline-slide-overlay">
+             </div>
+             <div class="timeline-slide-text">
+              <div class="timeline-slide-year">1977
+              </div>
+              <div class="timeline-slide-title"><a href="https://www.cornell.edu/about/timeline/index.cfm?#timeline-id-15" alt="read more about Voyager spacecraft launches">Voyager spacecraft launches</a></div>
+              <div class="timeline-slide-desc">
+
+               <p>Cornell astronomers and astrophysicists are 
+extensively involved in the missions of Voyager 1 and 2 to explore the 
+outer solar system.</p> </div>
+             </div>
+           </div>
+         
+
+
+
+     
+
+       <div class="timeline-slide cta-slide fade" style="display: none;">
+
+        <img alt="grey background" src="About%20Cornell%20University_files/blank-slide-bg.jpg">
+        <div class="timeline-slide-overlay">
+        </div>
+        <div class="timeline-slide-text">
+          <img alt="Outline of McGraw Tower" class="tower-outline" src="About%20Cornell%20University_files/cornell-tower-outline.png">
+          <div class="timeline-slide-title">Cornell History
+          </div>
+          <div class="timeline-slide-desc">
+
+            <p>Get to know Cornell by exploring the events that have shaped the university from 1865 to today.</p>
+          </div>
+          <div class="timeline-slide-ctas">
+            <button href="" alt="restart the slideshow" onclick="timelineSlider(0)">Restart Slideshow</button>&nbsp;&nbsp;
+            <a href="https://www.cornell.edu/about/timeline/" alt="explore the full timeline">Explore More</a>
+          </div>
+        </div>
+      </div>
+
+      <a class="timeline-prev-slide icon-arrow-left" onclick="timelineSlider(-1)"></a>
+      <a class="timeline-next-slide icon-arrow-right" onclick="timelineSlider(1)"></a>
+
+
+
+    </div>
+         
+             <a class="link-caret" href="https://www.cornell.edu/about/timeline/" title="Cornell's Historical Timeline">
+  Explore Cornell's History
+</a>
+  </div>
+</div>
+</div>
+</div>
+<div class="section transition-in" aria-label="Maps and Directions">
+  <div class="container">
+    <h3 class="cu-title">Campus Maps &amp; Directions</h3>
+    <div class="about-map-graphic">
+      <div class="about-map-tooltip" itemscope="" itemtype="http://schema.org/Place">
+        <span class="h5" itemprop="name">Cornell University</span>
+        <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">
+            Ithaca,
+          </span>
+          <span itemprop="addressRegion">New York</span>
+          <br>
+          <span itemprop="postalCode">14850</span>
+        </span>
+        <span itemprop="telephone">(607) 254-4636</span>
+      </div>
+    </div>
+    <ul class="link-list inline">
+      <li>
+        <a href="https://www.cornell.edu/about/maps.cfm" title="Maps and Directions">
+          View Campus Maps
+        </a>
+      </li>
+      <li>
+        <a href="https://www.cornell.edu/visit/" title="Visit Cornell">
+          Visiting Cornell
+        </a>
+      </li>
+      <li>
+        <a href="https://www.cornell.edu/visit/#tours" title="Ithaca campus tours">
+          Campus Tours
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- EXPLORE -->
+<div class="about-exploring section light-gray transition-in" aria-label="Continue Exploring">
+  <div class="container">
+    <div class="explore-header">
+      <h2 class="h5 cu-headline">
+        Continue Exploring …
+      </h2>
+      <a class="back-to-top" href="#main" title="Back to top">
+        <div class="arrow icon-arrow-up"></div>
+        Back to top
+      </a>
+    </div>
+    <ol class="link-blocks">
+      <li>
+        <a href="https://www.cornell.edu/academics/colleges.cfm" title="Cornell's colleges and schools">
+          Colleges &amp; Schools
+        </a>
+      </li>
+      <li>
+        <a href="https://www.cornell.edu/research/" title="Research at Cornell">
+          Research
+        </a>
+      </li>
+      <li>
+        <a href="http://landgrant.cornell.edu/" title="Land Grant at Cornell">
+          Land Grant
+        </a>
+      </li>
+      <li>
+        <a href="http://www.cornell.edu/leadership/" title="Our fearless leaders">
+          Cornell Leadership
+        </a>
+      </li>
+    </ol>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Begin Footer -->
+
+<!-- Global Footer -->
+<footer id="cu-ftr" data-click-category="footer" data-click-action="links">
+  <div class="cu-ftr-inner" role="navigation" aria-label="Footer Navigation">
+    <ul id="cu-ftr-nav">
+      <li class="ftr-item">
+        <span id="find_fast" class="ftr-title">
+          Helpful Links
+        </span>
+        <a class="submenu-trigger" href="#" aria-label="toggle Helpful Links"><span class="off-screen">expand menu</span></a>
+        <div class="submenu">
+         
+          <ul class="ftr-links" aria-labelledby="find_fast">
+            <li><a href="https://registrar.cornell.edu/calendar/" data-click-label="Academic Calendar">Academic Calendar</a></li>
+            <li><a href="https://leadership.cornell.edu/" data-click-label="Leadership">Leadership</a></li>
+            <li><a href="https://hr.cornell.edu/" data-click-label="Careers">Careers</a></li>
+            <li><a href="https://events.cornell.edu/" data-click-label="Events">Events</a></li>
+            <li><a href="https://news.cornell.edu/" data-click-label="Cornell Chronicle">News</a></li>
+            <li><a href="https://titleix.cornell.edu/" data-click-label="Title IX">Title IX</a></li>
+            <li><a href="https://emergency.cornell.edu/" data-click-label="Emergency">Emergency Preparedness</a></li>
+          </ul>
+         
+        </div>
+      </li>
+      <li class="ftr-item">
+        <span id="visiting_cornell" class="ftr-title">
+          Visiting Cornell
+        </span>
+        <a class="submenu-trigger" href="#" aria-label="toggle Visiting Cornell"><span class="off-screen">expand menu</span></a>
+        <div class="submenu">
+          <ul class="ftr-links" aria-labelledby="visiting_cornell">
+            
+            <li><a href="https://www.cornell.edu/visit/" data-click-label="Campus Tours">Campus Tours</a></li>
+            <li><a href="https://www.cornell.edu/about/maps/" data-click-label="Maps">Maps &amp; Directions</a></li>
+            <li><a href="https://www.cornell.edu/about/locations/nyc/travel-resources.cfm" data-click-label="Travel">Ithaca-NYC Travel</a></li>
+            <li><a href="https://museum.cornell.edu/" data-click-label="Museum">Johnson Museum</a></li>
+            <li><a href="https://cornellbotanicgardens.org/" data-click-label="Botanic Gardens">Botanic Gardens</a></li>
+            <li><a href="https://www.cornell.edu/about/locations/ithaca/" data-click-label="Ithaca">Ithaca</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="ftr-item ftr-item-today">
+        <span id="ithaca_today" class="ftr-title">Ithaca Today</span>
+
+        <a class="submenu-trigger" href="#" aria-label="toggle Ithaca Today"><span class="off-screen">expand menu</span></a>
+        <div class="submenu">
+          <ul class="ftr-links" aria-labelledby="ithaca_today">
+            <li class="ftr-liveview">
+              <a href="https://www.cornell.edu/live-view/" data-click-label="Live View">
+                <span>Live View</span>
+              </a>
+            </li>
+            <li class="ftr-weather-item">
+              <a href="https://www.cornell.edu/weather/" data-click-label="Weather">Weather <!-- This file is dynamically updated by our weather page. --><div class="ftr-weather"><div class="ftr-weather-icon"><div class="icon-partly-cloudy-day"></div></div><div class="ftr-weather-temp"><span id="currentTempIthacaF">85</span>°F / <span id="currentTempIthacaC">29</span>°C</div></div>
+
+
+              </a>
+
+            </li>
+          </ul>
+        </div>
+        
+        
+        <style>
+.ftr-item-campaign {padding-top: 3em; }
+.ftr-item-campaign a{color:#ccc;}
+li.ftr-item.ftr-item-today ul.ftr-links li {padding: 1.5em 1em !important;}
+@media (max-width: 60em) {
+    .ftr-item-campaign {
+        display: flex;
+        justify-content: center;
+    }
+}
+</style>
+
+<div class="ftr-item-campaign">
+    <a href="https://greatestgood.cornell.edu/"><img alt="To do he greatest good: The Campaign for Cornell University" src="About%20Cornell%20University_files/TDTGG.png"></a>
+</div>
+        
+      </li>
+    </ul>
+    <div class="ftr-info">
+        <a href="https://www.cornell.edu/about/locations/ithaca/" class="ftr-location-link" data-click-label="Ithaca, New York">Ithaca, New York</a>
+
+      
+      <ul class="ftr-utility">
+        <li><a href="https://universityrelations.cornell.edu/" data-click-label="University Relations">University Relations</a></li> 
+        <li><a href="https://privacy.cornell.edu/" data-click-label="University Privacy">University Privacy</a></li> 
+        <li><a href="https://www.cornell.edu/accessibility-assistance.cfm" data-click-label="web accessibility help">Web Accessibility Assistance</a></li>
+        <li><a href="https://www.cornell.edu/copyright.cfm" data-click-label="Copyright">Copyright</a></li>
+        <li><a href="https://www.cornell.edu/site-info.cfm" data-click-label="Site Information">Site Information</a></li>
+        <li><a href="https://www.cornell.edu/contact" data-click-label="Contact">Contact</a></li>
+      </ul>
+      
+      <ul class="ftr-social" data-click-action="social icons">
+        <li>
+          <a href="https://www.facebook.com/Cornell" title="Find us on Facebook" data-click-label="Facebook">
+            <div class="social-icon icon-facebook"></div>
+            <span class="social-label">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Cornell" title="Follow us on Twitter" data-click-label="Twitter">
+            <div class="social-icon icon-twitter"></div>
+            <span class="social-label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://instagram.com/cornelluniversity" title="Find us on Instagram" data-click-label="Instagram">
+            <div class="social-icon icon-instagram"></div>
+            <span class="social-label">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/c/Cornell" title="Watch us on YouTube" data-click-label="YouTube">
+            <div class="social-icon icon-youtube"></div>
+            <span class="social-label">YouTube</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- End Footer -->
+
+
+
+
+
+
+    <!-- Overlay for modals and to provide better focus -->
+    <div id="cu-overlay"></div>
+
+    
+        
+        <script>
+         var _gaq = _gaq || [];
+         
+         
+            _gaq.push(['_setAccount', 'UA-1628162-1']);
+          
+         _gaq.push(['_setDomainName', 'cornell.edu']);
+         _gaq.push(['_setAllowLinker', true]);
+         _gaq.push(['_trackPageview']);
+         
+         
+        
+         (function() {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+        </script>
+
+        <!-- Google tag (gtag.js) GA4 code-->
+        <script async="" src="About%20Cornell%20University_files/js"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-PMZ19X3F8W');
+        </script>
+
+        
+        <script src="About%20Cornell%20University_files/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="https://www.cornell.edu/assets/core/js/lib/jquery.js"><\/script>')</script>
+    
+    
+    <script src="About%20Cornell%20University_files/jquery.timeago.js"></script>
+    <script src="About%20Cornell%20University_files/Imager.min.js"></script>
+    <script src="About%20Cornell%20University_files/cornelledu.js"></script>
+    <script src="About%20Cornell%20University_files/plugins.js"></script>
+    <script src="About%20Cornell%20University_files/equalize.min.js"></script>
+    <script src="About%20Cornell%20University_files/cornell.js"></script>
+    
+        <script src="About%20Cornell%20University_files/date.js"></script>
+    
+
+
+  <script>
+    
+  function above960breakpoint(){
+    //if we hit this, we already paid the penalty.  No going back.
+    //Some things aren't shown on mobile. only include them if they're shown.
+    lazyLoadVideo("#gloriousToView");
+    lazyLoadVideo("video");
+
+    //nav images don't show until 960px
+   if (typeof Imager !=="undefined"){
+     // for increasing page load speed on mobile
+     new Imager('.lazyload-above-960',{availableWidths:{}});
+     new Imager('.responsive-img-large',{availableWidths:{
+       400:'377x212',
+       600:'1280x720'
+     }});
+     new Imager('.honeycomb-tile',{availableWidths:{
+        400:'377x212',
+        600:'1280x720'
+      }});
+   }
+  }
+ function lazyLoadVideo(selector){
+
+    $(selector).find("source").each(function(i,el){
+      var src = $(el).data('src');
+      // if the src is not undefined and has not already been set, set it and load the video
+      if ("undefined" != typeof src && src != $(el).attr('src') ){
+        $(el).attr('src',src);
+        $(el).parent().load();
+      }
+    });
+  }
+  //taken from underscore.js
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      var later = function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      var callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  };
+    $(function(){
+      function handleResize(){
+        if ($(window).width()>960){
+          above960breakpoint();
+        } else {
+          //on mobile, load the galapagos bg, otherwise the video is there.
+          $('#sesqui-video').css("background-image", "url(/assets/images/video/features/glorious-to-view.jpg); clear: both;");
+        }
+      }
+      resizeEventHandler = debounce(handleResize, 250);
+      window.addEventListener('resize',resizeEventHandler);
+      handleResize();
+      
+    });
+
+</script>
+    
+
+	  
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6120104.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+        
+
+ 
+
+    
+        
+    <script src="About%20Cornell%20University_files/overview-slider_2023.js"></script>
+
+
+</div></body></html>
